@@ -180,11 +180,9 @@ This will clone the Github repo to your local machine.
 #### Step 5
 Whenever you've written some code repeat the steps and you'll be committing to Github.
 
-## Conclusion
+### Conclusion
 First starting with Git and Github can be challenging, for me it was partly being too stubborn to grasp the concept cause it felt like to much trouble.
 With the last project, I didn't have a choice and was forced to learn all the bits needed to commit code to the project branch. This made me realize that working with Git and Github is a big help during my projects.
-
-
 
 ## VAR LET & CONST
 So at the start of the minor, I hadn't been using ES6 all that much, but at the beginning of the project the teachers said we could try ES6 and see how far we could go.
@@ -283,8 +281,122 @@ for (let i = 0; i < 10; i++) {
 ### What should I use?
 So after trying a couple of things out I still haven't come up with a definitive answer. But VAR is something I try to avoid. After reading some research and watching some really smart people talk about this subject I found two people who explain it best. Links can be found below
 
-- [](https://frontendmasters.com/courses/es6-right-parts/const/)
-- [](https://mathiasbynens.be/notes/es6-const)
+- [Kyle Simpson](https://frontendmasters.com/courses/es6-right-parts/const/)
+- [Mathias Bynens](https://mathiasbynens.be/notes/es6-const)
 
 ### Conclusion
 I'll try to keep Mathias Bynes method cause for me this feels like the correct way of using CONST and LET.
+
+## React
+
+### What is react?
+React is a framework developed by Facebook. A framework that helps to work in components. With React it's easier to make web pages feel like native app cause of the way the code works. For example, with vanillaJS you'd write a bunch of code use some HTML and add some styling. Once you run the code everything is rendered onto the page. If you change something the page completely reloads even though you just changed one thing.
+
+React is different, a webpage usually has the same containers/modules if you will. Like a header, body, footer etc. Inside the body, you can have different containers as well. Let's say we have a list of names generated from our data. With React we can put that list inside its own container and when we add a new name just render the bits that have changed instead of the whole page. This will cut loading times significantly and it'll feel like an app.
+
+### JSX
+React works a bit different compared to VanillaJS. Basically, you write the same code, but for optimal performance and reusability, you write in JSX. The example below shows a simple react component that creates a form.
+
+```jsx
+import React from 'react'
+
+class Example extends React.Component {
+    render() {
+        return (
+            <form className="example"></form>
+        )
+    }
+}
+
+export default Example
+```
+
+Like I explained earlier, React works in components. To use components on different pages you need to import React and export the module so that you can reuse your components. A couple of other things to know is that the attributes class and for don't work inside JSX. In essence, you're writing JavaScript inside your HTML and those attributes are already reserved for other things inside JavaScript. That's why you use className and htmlFor. These work exactly the same way but are called different.
+
+All tags like 
+```html 
+<br> <hr> <img> & <input>
+```
+
+Are self-closing, so we usually don't write anything behind them. With JSX you need to close them.
+```html
+<input />
+```
+
+### Stateless Function Component
+Sometimes components will be so simple, that they will only do one thing. If you don't need any other methods inside your component except the render method we can use a stateless function:
+
+<strong>Stateless Function Component</strong>
+```jsx
+const Example = (props) => {
+    return (
+            <header>
+                <h1>This will always be the same</h1>
+            </header>
+        )
+}
+
+export default Example
+```
+<strong>Full React Component (in which you can use more methods)</strong>
+``` jsx
+class Example extends React.Component {
+    render() {
+        return (
+            <header>
+                <h1>This will always be the same</h1>
+            </header>
+        )
+    }
+}
+
+export default Example
+```
+For my project, I tried using both, but after refactoring my code a couple of times I don't have that many separate components.
+The biggest aha moment is that inside the class component (inside the render method) you can refer to this. But with the stateless function, there's no this and you can pass props.
+
+---
+
+### States vs Props
+With a state, you can only access information that is available inside the component.
+
+``` jsx
+class AnotherExample extends React.Component {
+    state = {
+        name: "Jamie"
+    }
+    render() {
+        return (
+            <div>Hello {this.state.name}</div>
+        )
+    }
+}
+```
+
+``` jsx
+class AnotherExample extends React.Component {
+    render() {
+        return (
+            <div>Hello {this.props.name}</div>
+        )
+    }
+}
+
+<AnotherExample name="Jamie"/>
+```
+
+Props or properties we can pass to the component using attributes. Then we can access them inside the component.
+
+### Constructor and Super
+This concept is still really abstract for me. But as I understand it. Once you create a react component and you want to add your own methods you need the constructor and super otherwise the methods won't work.
+
+```jsx
+constructor(){
+    super()
+}
+```
+
+### Conclusion
+A lot of developers pick a side and stay with it, I just recently started experimenting with React and I realized that even though it is really good at what it does you don't always need it. and I think that's something that goes for every framework. So think about what you want to make and make a decision based on your needs rather than just blindly following what you already know.
+
+
