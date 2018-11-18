@@ -14,6 +14,7 @@
   - [Github](#github)
   - [VAR LET & CONST](#var-let-&const)
   - [React](#react)
+  - [Working in a Team](#working-in-a-team)
 
 
 ***
@@ -400,5 +401,34 @@ constructor(){
 
 ### Conclusion
 A lot of developers pick a side and stay with it, I just recently started experimenting with React and I realized that even though it is really good at what it does you don't always need it. and I think that's something that goes for every framework. So think about what you want to make and make a decision based on your needs rather than just blindly following what you already know.
+
+## Working in a Team
+This article will be about the choice I had to make for the last project during the minor everything web. More specifically about how I had a hard time deciding if I should tackle the project alone, or that I would be better off in a group. Spoiler alert! I went for a group project.
+
+### The client
+Our first meeting was with the client and all the other classmates who had decided they wanted to be on this project. No group was formed cause that was something we could decide on our own and we thought it would be better to hear the assignment first before making decisions. As we listened to what the client expected from this project it became clear that at the end of the 9 weeks they would like to see a nearly finished product on which they could continue working. This expectation pointed us in the direction of joining hands and work on it together. Because doing it alone wouldn't meet their needs. We started with 8 people, but after the first meeting 2 others dropped out and we were left with 6, including myself. 
+
+### The Pro and Con
+Let me tell you, a group of 6 individuals all with different levels of knowledge trying to build a complete project in 9 weeks to meet the needs of their client is quite a challenge. Especially if you don't know them very well. For example, my knowledge level wasn't that high compared to a couple of others, it's easy getting swept up in their ideas. Because you think to yourself, they know so much more it's probably better. I'll talk more about this later.
+
+**Pro**
+- Because we were a group of 6 people, idea generation went very well.
+- We had people with more experience in visual design, coding and animation.
+- Getting to know new people, learning new stuff from other group members.
+- Everyone worked well together, so whenever one of us was stuck we could rely on team members.
+
+**Con**
+- Some were better at programming than others, which resulted in them having the deciding votes (for example, a feature that would be hard to implement. Someone knowledgeable would know it could take a while to create, so let's not implement)
+- Because everyone is new, you don't know how well you can count on each other. Which meant that you'd do a lot more yourself instead.
+- At the beginning 6 people are really nice, but once you have the idea on paper and there's coding to be done. 6 people can be really difficult.
+
+### The standups
+One of the ways we tried to make our group dynamic work was by using short standups every morning. This way we could express concerns, share ideas, tell other about the progress you've made and what's good and what's not going well. Important about these standups is that they're not for social bonding, keep them short and keep the content meaningful.
+
+### The feedback
+Every week we had meetings with our client and our teachers, when you're working alone it's easier to use the feedback. When in a group where everyone gets feedback it'll be a lot harder to implement them. Everyone wants to pass the assignment and everyone wants to finish the project. So how do you work this out? The best way for us was having meetings with our team after we received feedback. This way we could talk about everything we talked about and decide as a group what we could use in our project.
+
+### The conclusion
+After 9 weeks of working together, I've learned a lot. I learned about real teamwork, about getting to know new people. But above all, I became better at handling pressure and stress. Would I make the same decision again? With the knowledge, I have now: Yes, but if I would do it over again I don't know. Even though I learned a lot because group members had more experience, I also think that exactly because of this reason that I skipped a few fundamentals. 
 
 
