@@ -15,6 +15,7 @@
   - [VAR LET & CONST](#var-let-&const)
   - [React](#react)
   - [Working in a Team](#working-in-a-team)
+  - [Prototyping](#prototyping)
 
 
 ***
@@ -430,5 +431,19 @@ Every week we had meetings with our client and our teachers, when you're working
 
 ### The conclusion
 After 9 weeks of working together, I've learned a lot. I learned about real teamwork, about getting to know new people. But above all, I became better at handling pressure and stress. Would I make the same decision again? With the knowledge, I have now: Yes, but if I would do it over again I don't know. Even though I learned a lot because group members had more experience, I also think that exactly because of this reason that I skipped a few fundamentals. 
+
+
+## Prototyping
+This next article is about prototyping. Mainly about how prototyping has changed for me in the course of half a year. With my experience as a visual designer my way of prototyping for a product usually consist of: sketching my idea, do a couple of user tests, gather feedback and make a visual prototype in a program like sketch or adobe Xd. This can take up a lot of time because I have a hard time trying not to make everything pixel perfect (which I never get right, but spend a lot of time trying to achieve). And then when I want to sell the whole experience and present it to a client I'll anime my design in Principle, which is a program that can import sketch files and where you can make a clickable prototype. This works really well for me and only after this flow of tasks am I able to code because I know exactly what I want to make and how every element should behave. During the Minor Everything Web, I was challenged to change my process and try to do it a different way. 
+
+### A new way
+As I explained before, the basic steps towards a prototype for me usually consist off. Sketching -> Design -> Animate -> Write code. But this new way (which sounds really good on paper) Consist of: Sketching -> Write code. Looks good right? Yeah, I understand, if you cut so two steps from the process you can come up with clickable prototypes, working products directly inside the browser. 
+
+As I said, this sounds really good but for me, it was actually quite tricky. I've been designing for a couple of years and I taught myself a way to quickly move around everything when something doesn't look good. Designing BY writing code is a lot harder for me cause it feels like I'm sort of guessing what is going to happen. Instead of visually seeing my font change size, now I'll just put in a number and sure I sort of know what the size will be. But only after saving and refreshing my browser can I actually see the changes. 
+
+And I know what you want to say, you can make this an automated process there are tools that can do this for you. But that's not the point I'm trying to make. Why this is difficult for me is simply because I don't use my mouse to directly influence, transform something on my screen. Instead, I'm thinking more abstractly and feels more like guessing.
+
+### Keep going
+Even though it's harder I still think there is a lot to gain doing it this way. And especially because I have a background in visual design this could be something that is really strong. Because I'm not just a visual designer, I'm also a coder. I know the limitations of a browser, I know the behavior, I know what is possible and what is not. And if I keep going I know at some point writing up a prototype won't feel like I'm just guessing anymore. At the end of the minor, the experience was already better. In my mind, I could see how it would look like by writing code. In the end, it'll save me a lot of time and it will make me a better front-end developer(designer)
 
 
